@@ -1,0 +1,63 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Django local database & logs
+*.sqlite3
+db.sqlite3
+db.sqlite3-journal
+*.log
+runserver.log
+
+# Node & Next.js
+node_modules/
+*/node_modules/
+.next/
+*/.next/
+out/
+*/out/
+build/
+coverage/
+*.tsbuildinfo
+.pnp
+.pnp.*
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# IDEs & System files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
